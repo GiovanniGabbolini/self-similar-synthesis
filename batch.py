@@ -10,6 +10,11 @@ import json
 import librosa
 from tqdm import tqdm
 
+# Get samples via `sample_space`
+# `compute_similarity` of those samples
+# and `compose` a piece with `seeds`.
+# Example usage at the bottom.
+
 
 def sample_space(context):
     server = Server()
@@ -127,6 +132,6 @@ def fade_in_and_out(audio, sr, seconds_fading=8):
 
 
 if __name__=="__main__":
-    # sample_space(flat)
-    # compute_similarity(flat)
+    sample_space(flat)
+    compute_similarity(flat)
     compose(flat, seeds=[89, 4, 20, 27, 42, 44, 54, 65, 115, 89])
