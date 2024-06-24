@@ -1,4 +1,4 @@
-# Self-similar composition
+# Self-similar synthesis
 Algorithm for generating audio tracks based on similarity.
 
 ## Method
