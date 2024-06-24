@@ -1,3 +1,5 @@
+![alt text](parallel_processes.png?raw=true)
+
 # Self-similar synthesis
 Algorithm for generating audio tracks based on similarity.
 
